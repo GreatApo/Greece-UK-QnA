@@ -3,18 +3,13 @@ function populateQuestions(sorted = false){
 	let $container = $('#faqAccordion');
 	
 	// Sort based on score
-	qna = qna.sort(function(a,b){
-		// here a , b is whole object, you can access its property
-		//convert both to lowercase
-		let x = (sorted)? a.score : a.id;
-		let y = (sorted)? b.score : b.id;
-
-		//compare the word which is comes first
-		if(x>y){return 1;} 
-		if(x<y){return -1;}
-		return 0;
-	});
+	if(sorted){
+		sortQuestionsByScore();
+	}else{
+		sortQuestionsById();
+	}
 	
+	// Populate questions
 	qna.forEach((l_qna, l_index) => {
 		let show = l_qna.show;
 		
@@ -81,6 +76,22 @@ function prepareTxt(txt){
 	return txt;
 }
 
+// Sort questions
+function sortQuestionsById(){
+	qna = qna.sort(function(a,b){
+		if(a.id > b.id){return 1;}
+		if(a.id < b.id){return -1;}
+		return 0;
+	});
+}
+function sortQuestionsByScore(){
+	qna = qna.sort(function(a,b){
+		if(a.score > b.score){return -1;}
+		if(a.score < b.score){return 1;}
+		return 0;
+	});
+}
+
 $(document).ready(function () {
     // Populate questions
 	populateQuestions(false);
@@ -105,6 +116,7 @@ $(document).ready(function () {
 		}
 		
 		// Score each question
+		sortQuestionsById();
 		qna.forEach((l_qna) => {
 			// Ensure qna are prepared for comparison
 			if(l_qna.q_prep == undefined){
