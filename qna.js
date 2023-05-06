@@ -174,4 +174,11 @@ var qna = [
 		links : ["https://www.mfa.gr/uk/eservices/metoikesies"],
 		show : true
 	},
+	{
+		q : "Μπορώ να πληρώσω Ελληνικούς φόρους και τέλη από το ΗΒ;",
+		keywords : "φόροι πληρωμή φορολογία ααδε",
+		a : "Η ΑΑΔΕ δίνει την δυνατότητα αποπληρωμής φόρων και τελών μέσω SEPA Credit Transfer σε Ευρώ, όταν βρίσκεστε σε μία χώρα της Ζώνης SEPA (Ενιαίος Χώρος Πληρωμών σε Ευρώ – Single Euro Payment Area).\nΠεροσσότερες πληροφορίες στον {ιστότοπο της ΑΑΔΕ})",
+		links : ["https://www.aade.gr/polites/pliromi-foron-kai-telon-apo-hores-tis-zonis-sepa"],
+		show : true
+	},
 ]
