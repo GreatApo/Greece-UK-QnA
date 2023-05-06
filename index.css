@@ -84,3 +84,14 @@ body{margin-top:0px;}
         font-size: 13px;
     }
 }
+
+#search-input {
+	border-radius: 30px;
+	text-align: center;
+}
+
+.perm-link{
+	float: right;
+	margin-right: -8px;
+	margin-top: -15px;
+}
