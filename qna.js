@@ -202,4 +202,15 @@ var qna = [
 		links : ["https://www.aade.gr/polites/pliromi-foron-kai-telon-apo-hores-tis-zonis-sepa"],
 		show : true
 	},
+	{
+		id : 22,
+		q : "Μπορώ να βγάλω άδεια γάμου από το ΗΒ;",
+		keywords : "γάμος άδεια γάμου πρεσβεία ",
+		a : "Μπορείτε να πάρετε εξουσιοδότηση έκδοσης άδειας γάμου από την Ελληνική πρεσβεία στο Λονδίνο με ραντεβού. Περισσότερες πληροφορίες στον {ιστότοπο της πρεσβείας}.\n\nΤο αντίστοιχο χαρτί για τους Βρετανούς υπηκόους είναι το certificate of no impediment (CNI) και εκδίδεται από {αυτόν τον σύνδεσμο}.",
+		links : [
+			"https://www.mfa.gr/uk/eservices/lexiarkheio/ekdose-adeias-gamou.html",
+			"https://www.gov.uk/marriage-abroad"
+		],
+		show : true
+	},
 ]
