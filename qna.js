@@ -221,4 +221,14 @@ var qna = [
 		links : ["https://www.tvlicensing.co.uk/check-if-you-need-one/topics/telling-us-you-dont-need-a-tv-licence"],
 		show : true
 	},
+	{
+		id : 24,
+		q : "Θέλω να πάω από ΗΒ στην Ελλάδα οδικώς! Τι πρέπει να ξέρω? (κατοικίδια, ασφάλιση)",
+		keywords : "οδήγηση οδικός ταξίδι κατοικίδια κατοικίδιο οδική ασφάλιση",
+		a : "Αναλυτικός οδηγός στο Facebook group 'Ellines sto Londino - Greeks in London (& the UK)' σε {αυτόν τον σύνδεσμο}.",
+		links : ["https://www.facebook.com/groups/greeksinlondon/permalink/10167985192640497/"],
+		show : true
+	},
+	
+	
 ]
