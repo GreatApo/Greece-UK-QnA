@@ -229,6 +229,16 @@ var qna = [
 		links : ["https://www.facebook.com/groups/greeksinlondon/permalink/10167985192640497/"],
 		show : true
 	},
-	
-	
+	{
+		id : 25,
+		q : "Πως μπορώ να έχω δωρεάν ιατρική περίθαλψη στο ΗΒ ως Έλληνας/Ευρωπαίος πολίτης;",
+		keywords : "ιατρική περίθαλψη Ευρωπαϊκή κάρτα ασφάλισης ασθένειας",
+		a : "Η Αγγλία (μέσω του NHS) αναγνωρίζει την Ευρωπαϊκή Κάρτα Ασφάλισης Ασθενείας (EHIC) για συγκεκριμένες καταστάσεις ιατρικής περίθαλψης (περισσότερες πληροφορίες σε {αυτόν τον σύνδεσμο}). Προσοχή, εάν ταξιδεύετε στην Ουαλία, τη Σκοτία ή τη {Βόρεια Ιρλανδία} επιβεβαιώστε πως το ίδιο καθεστώς ισχύει και εκεί.\n\nΜπορείτε να εκδώσετε Ευρωπαϊκή Κάρτα Ασφάλισης Ασθενείας από την Ελλάδα σε {αυτόν τον σύνδεσμο}.\n\n* Περίθαλψη επειγόντων περιστατικών γίνεται χωρίς να απαιτείται ασφάλιση αλλά με χρέωση",
+		links : [
+			"https://www.gov.uk/guidance/healthcare-for-eu-and-efta-citizens-visiting-the-uk",
+			"https://www.nidirect.gov.uk/articles/health-and-medical-emergencies-services-visitors-northern-ireland",
+			"https://www.gov.gr/ipiresies/ergasia-kai-asphalise/asphalise/europaike-karta-asphalises-astheneias"
+		],
+		show : true
+	},
 ]
