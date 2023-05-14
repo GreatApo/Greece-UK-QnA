@@ -65,8 +65,12 @@ var qna = [
 		id : 6,
 		q : "Πως μπορώ να μεταβώ από pre settled σε settled status;",
 		keywords : "pre settled status βίζα",
-		a : "Πρέπει να κάνετε νέα αίτηση {εδώ}.\n\nΘα χρειαστείτε το αριθμός αναφοράς του pre settled status σας, διαβατήριο και National Insurance Number (NIN).",
-		links : ["https://eu-settled-status-enquiries.service.gov.uk/start "],
+		a : "Πρέπει να κάνετε νέα αίτηση {εδώ}.\n\nΘα χρειαστείτε το αριθμός αναφοράς του pre settled status σας, διαβατήριο και National Insurance Number (NIN).\n\nΠερισσότερες πληροφορίες σχετικά με pre-settled και settled status θα βρείτε σε {αυτόν τον σύνδεσμο}, ενώ ερωτήσεις μπορείτε να κάνετε {εδώ}.",
+		links : [
+			"https://www.gov.uk/settled-status-eu-citizens-families/switch-from-presettled-status-to-settled-status",
+			"https://www.gov.uk/settled-status-eu-citizens-families",
+			"https://eu-settled-status-enquiries.service.gov.uk/start"
+		],
 		show : true
 	},
 	{
@@ -238,6 +242,17 @@ var qna = [
 			"https://www.gov.uk/guidance/healthcare-for-eu-and-efta-citizens-visiting-the-uk",
 			"https://www.nidirect.gov.uk/articles/health-and-medical-emergencies-services-visitors-northern-ireland",
 			"https://www.gov.gr/ipiresies/ergasia-kai-asphalise/asphalise/europaike-karta-asphalises-astheneias"
+		],
+		show : true
+	},
+	{
+		id : 26,
+		q : "Που μπορώ να βρω τις ισοτιμίες EUR - GBP για φορολογικές μετατροπές;",
+		keywords : "ισοτιμία ισοτιμίες EUR GBP ευρό λίρα μετατροπή φορολογία φορολογικά",
+		a : "Μπορείτε να βρείτε τις ισοτιμίες από το HMRC σε {αυτόν τον σύνδεσμο}.\nΑντίστοιχα, μπορείτε να βρείτε τις ισοτιμίες από την ΑΑΔΕ σε {αυτόν τον σύνδεσμο}",
+		links : [
+			"https://www.gov.uk/government/publications/hmrc-exchange-rates-for-2022-monthly",
+			"https://www.aade.gr/epiheiriseis/teloneiakes-ypiresies/plirofories-pros-oikonomikoys-foreis/teloneia/isotimies"
 		],
 		show : true
 	},
